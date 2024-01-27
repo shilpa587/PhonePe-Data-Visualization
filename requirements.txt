@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+json
+os
+altair
+plotly
+mysql
+streamlit_option_menu
