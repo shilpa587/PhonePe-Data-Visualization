@@ -312,19 +312,6 @@ top_users_pin_new=top_users_pin_merged_df.drop(['District','Top_pincode_Name'], 
 
 #******************************
 
-#Covert Data frames to csv files
-#agg_Trans.to_csv('agg_Trans.csv',index=False)
-#agg_users.to_csv('agg_users.csv',index=False)
-#map_Trans.to_csv('map_Trans.csv',index=False)
-#map_users.to_csv('map_users.csv',index=False)
-#top_Trans_dist.to_csv('top_Trans_dist.csv',index=False)
-#top_Trans_pin.to_csv('top_Trans_pin.csv',index=False)
-#top_users_dist.to_csv('top_users_dist.csv',index=False)
-#top_users_pin.to_csv('top_users_pin.csv',index=False)'''
-
-#******************************
-
-
 #Establish connection to MYSQL:
 mydb = mysql.connector.connect(
   host = "localhost",
